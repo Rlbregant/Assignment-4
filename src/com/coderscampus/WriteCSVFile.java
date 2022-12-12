@@ -3,7 +3,6 @@ package com.coderscampus;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Arrays;
 import java.util.List;
 
 public class WriteCSVFile {
