@@ -16,9 +16,9 @@ public class WriteCSVFile {
 	        pw.println("------------  ------------  	      ------  	-----");
 
 	        // Iterate over the elements of the data list
-	        for (String[] record : data) {
+	        for (String[] student : data) {
 	            // Print the elements of the record array with left alignment
-	            pw.printf("%-12s  %-20s  %-12s  %-12s%n", record[0], record[1], record[2], record[3]);
+	            pw.printf("%-12s  %-20s  %-12s  %-12s%n", student[0], student[1], student[2], student[3]);
 	        }
 	    } catch (IOException e) {
 	        e.printStackTrace();
