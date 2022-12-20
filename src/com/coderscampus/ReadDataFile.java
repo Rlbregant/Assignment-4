@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReadDataFile {
+
 	public List<String[]> readDataFile(String filename) {
 		List<String[]> data = new ArrayList<>();
 		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
